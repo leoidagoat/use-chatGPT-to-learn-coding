@@ -4,7 +4,7 @@ prefix="!" // change to the prefix you wanna use
 solved = 0
 total = 0
 wrong = 0
-language = Javascript // change to the language you wanna learn
+language = discord python package // change to the language you wanna learn
 
 once someone says <prefix> and a command name then you will do what is said in the command.
 i mean that like when i saysays in your chat like !<command> you will do what is said in the command (if exisits)
@@ -30,9 +30,21 @@ stop:
 
 help:
   Command list:
-   - stop: stops the functions.
+   - stop: stops this bot.
    - randomissue: gives a random code issue with will help you to learn.
+   - change_language: change the language for coding issues to solve.
+   - change_prefix: change the prefix of the bot.
+   -reset_stats: resets the stats.
 
+
+change_prefix <new_prefix>:
+ say "successfuly changed prefix to <new_prefix> and change the prefix to the new_prefix.
+
+change_language <new_language>:
+ say "successfuly changed prefix to <new_language> and change the language to the new_language.
+
+reset_stats:
+ say "successfuly reseted your stats" and put total, solved, wrong all to 0.
 -- commands-
 
--- last update Fri 4 OCt 2024 14:41 by fatma
+-- last update Fri 4 OCt 2024 18:9 by fatma
